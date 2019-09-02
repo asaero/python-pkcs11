@@ -1,6 +1,7 @@
 branches:
     only:
         - fix-tests
+
 sudo: false
 language: python
 
