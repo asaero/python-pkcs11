@@ -30,7 +30,7 @@ before_script:
     # Build our extension
     - python setup.py build_ext -i
 
-script: python -m unittest
+script: python setup.py test
 
 
 deploy:
